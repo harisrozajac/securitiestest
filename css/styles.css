@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 .background {
   height: 100%;
   background-image: url('https://www.visitutah.com/media/15896027/web2000_saltlakecity_skyline_spring_jay_dash_photography_img_3274_full_large.jpg?quality=86');
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .button {
@@ -20,7 +36,8 @@
 }
 
 .bottom-button-bar {
-  background-color: transparent;
+  margin-top: 0.2em;
+  background-color: lightblue;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -32,13 +49,22 @@
 }
 
 .bottom-links-container {
-  display: flex;
+  margin-top: 15em;
   flex-direction: row;
-  margin-top: 20em;
-  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.title-container {
+  margin-left: 1em;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+.main-links {
+  text-align: center;
+  align-self: center;
 }
