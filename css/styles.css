@@ -68,3 +68,10 @@ a {
   text-align: center;
   align-self: center;
 }
+
+.text-box {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  text-align: justify;
+}
