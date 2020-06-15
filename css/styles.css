@@ -35,6 +35,7 @@ h2 {
 
 html,
 body {
+  font-family: Helvetica, sans-serif;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -109,11 +110,36 @@ a {
 
 .flex-container > div {
   background-color: var(--primary-green);
+  height: 150px;
   width: 200px;
   margin: 10px;
+  border: solid;
   text-align: center;
-  line-height: 75px;
   font-size: 20px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.flex-container > h1 {
+  font-size: 10px;
+}
+
+.investor-container {
+  margin-top: 5em;
+  text-align: center;
+  align-self: center;
+  font-size: 24px;
+  background-color: var(--primary-blue);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.investor-container > p {
+  color: white;
+  font-size: 30px;
 }
 
 a.animated-button.victoria-one {
